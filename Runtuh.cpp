@@ -4,9 +4,9 @@ using namespace std;
 int main() {
     int R, C; cin >> R >> C; 
     int array[R][C];
-    for(int i = 1; i < R; i++) {
+    for(int i = 0; i < R; i++) {
         string a; cin >> a; 
-        for(int j = 0; j < C; i++) {
+        for(int j = 0; j < C; j++) {
             if(a[j]=='0') {
                 array[i][j] = 0; 
             } else {
